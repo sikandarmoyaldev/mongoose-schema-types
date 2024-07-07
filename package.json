@@ -1,0 +1,41 @@
+{
+    "name": "mongoose-schema-types",
+    "version": "1.0.0",
+    "description": "This repository provides custom schema types for Mongoose, enhancing the functionality and security of your MongoDB schemas.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "author": "Sikandar Moyal <sikandar.moyal.dev@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "build": "tsc",
+        "prepare": "npm run build"
+    },
+    "dependencies": {
+        "bcrypt": "^5.1.1",
+        "mongoose": "^8.4.5"
+    },
+    "devDependencies": {
+        "@types/bcrypt": "^5.0.2",
+        "@types/mongoose": "^5.11.97",
+        "@types/node": "^20.14.10",
+        "typescript": "^5.5.3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sikandarmoyaldev/mongoose-schema-types.git"
+    },
+    "keywords": [
+        "mongoose",
+        "schema",
+        "types",
+        "mongodb",
+        "custom-schema-types"
+    ],
+    "bugs": {
+        "url": "https://github.com/sikandarmoyaldev/mongoose-schema-types/issues"
+    },
+    "homepage": "https://github.com/sikandarmoyaldev/mongoose-schema-types#readme",
+    "files": [
+        "dist/**/*"
+    ]
+}
